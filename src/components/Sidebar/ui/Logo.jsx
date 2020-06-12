@@ -5,31 +5,33 @@ const StyledLogo = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 100%;
-  margin: 1rem auto;
+  margin: 1rem;
 
   .logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background: #778ef5;
     border-radius: 50%;
     padding: 0;
     margin: 0;
     font-weight: bolder;
     height: 35px;
     width: 35px;
-
+    margin-right: 1rem;
     p {
       margin: 0;
       padding: 0;
+      color: white;
     }
   }
 
   h3 {
-    font-weight: bold;
+    font-weight: bolder;
+    color: white;
   }
 `;
 
