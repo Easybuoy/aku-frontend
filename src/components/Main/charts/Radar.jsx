@@ -5,8 +5,6 @@ import styled from "styled-components";
 import "react-svg-radar-chart/build/css/index.css";
 
 const StyledRadar = styled.div`
-
-
   svg {
     width: 100%;
     height: 100%;
