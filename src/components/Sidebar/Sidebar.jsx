@@ -6,27 +6,28 @@ import SideNav from "./ui/SideNav";
 
 const StyledSidebar = styled.div`
   width: 20%;
-  /* height: 100vh; */
-  background-color: #3553f1;
+  height: 100vh;
+  background-color: blue;
   display: flex;
   flex-wrap: wrap;
   overflow-y: scroll;
+  flex-direction: column;
 
-  /* .sidebar {
+  .sidebar {
     display: flex;
     flex-wrap: wrap;
     height: auto;
-  } */
+  }
 `;
 
 const Sidebar = () => {
   return (
     <StyledSidebar>
-      {/* <div className="sidebar"> */}
-      <Logo />
-      <Profile />
-      <SideNav />
-      {/* </div> */}
+      <div className="sidebar">
+        <Logo />
+        <Profile />
+        <SideNav />
+      </div>
     </StyledSidebar>
   );
 };

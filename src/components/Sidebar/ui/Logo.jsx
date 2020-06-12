@@ -5,9 +5,9 @@ const StyledLogo = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start;
-  width: 100%;
+  justify-content: center;
   margin: 1rem;
+  width: 100%;
 
   .logo {
     display: flex;

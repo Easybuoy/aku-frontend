@@ -4,7 +4,9 @@ import styled from "styled-components";
 const StyledMain = styled.div`
   background-color: green;
   width: 79%;
-  /* height: 100vh; */
+  height: 100vh;
+  flex-direction: column;
+  overflow-y: scroll;
 `;
 
 const Main = () => {
