@@ -6,7 +6,6 @@ const StyledContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   margin: ${(props) => (props.margin ? props.margin : "0.1rem")};
-  /* min-height: 100vh; */
   font-family: "Roboto", sans-serif;
 `;
 

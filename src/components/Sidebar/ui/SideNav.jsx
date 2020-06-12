@@ -49,44 +49,44 @@ const SideNav = () => {
       <ul>
         <li>
           <div className="link">
-            <i class="far fa-circle"></i> Dashboards
+            <i className="far fa-circle"></i> Dashboards
           </div>
         </li>
 
         <li className="active">
           <div className="link">
-            <i class="far fa-circle"></i> Basic UI Elements
+            <i className="far fa-circle"></i> Basic UI Elements
           </div>
           <i className="fas fa-arrow-right "></i>
         </li>
 
         <li>
           <div className="link">
-            <i class="far fa-circle"></i> Form Elements
+            <i className="far fa-circle"></i> Form Elements
           </div>
         </li>
 
         <li>
           <div className="link">
-            <i class="far fa-circle"></i> Charts
+            <i className="far fa-circle"></i> Charts
           </div>
         </li>
 
         <li>
           <div className="link">
-            <i class="far fa-circle"></i> Tables
+            <i className="far fa-circle"></i> Tables
           </div>
         </li>
 
         <li>
           <div className="link">
-            <i class="far fa-circle"></i> Icons
+            <i className="far fa-circle"></i> Icons
           </div>
         </li>
 
         <li>
           <div className="link">
-            <i class="far fa-circle"></i> User Pages
+            <i className="far fa-circle"></i> User Pages
           </div>
           <i className="fas fa-arrow-right "></i>
         </li>

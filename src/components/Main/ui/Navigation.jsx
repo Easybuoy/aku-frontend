@@ -86,7 +86,7 @@ const Navigation = () => {
   return (
     <StyledNavigation>
       <div className="nav__left">
-        <i class="fas fa-bars"></i>
+        <i className="fas fa-bars"></i>
 
         <div className="help">
           <p>Help: +050 2992 709 </p>
@@ -97,18 +97,18 @@ const Navigation = () => {
             <img src={UKLogo} alt="uk" />
           </div>
           <p>United States </p>
-          <i class="fas fa-chevron-down"></i>
+          <i className="fas fa-chevron-down"></i>
         </div>
       </div>
 
       <div className="nav__right">
         <input placeholder="Search Here" />
-        <i class="far fa-bell"></i>
-        <i class="far fa-envelope"></i>
+        <i className="far fa-bell"></i>
+        <i className="far fa-envelope"></i>
 
         <div className="profile-container">
           <img src={Profile} alt="profile" />
-          <i class="fas fa-chevron-down"></i>
+          <i className="fas fa-chevron-down"></i>
         </div>
       </div>
     </StyledNavigation>
