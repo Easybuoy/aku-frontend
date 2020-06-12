@@ -1,7 +1,17 @@
 import React from "react";
 import RadarChart from "react-svg-radar-chart";
+import styled from "styled-components";
+
 import "react-svg-radar-chart/build/css/index.css";
 
+const StyledRadar = styled.div`
+
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+`;
 const data = [
   {
     data: {
@@ -45,9 +55,9 @@ const captions = {
 
 const Radar = () => {
   return (
-    <div>
+    <StyledRadar>
       <RadarChart captions={captions} data={data} size={450} />
-    </div>
+    </StyledRadar>
   );
 };
 
