@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+import Container from "../Container";
 import Navigation from "./ui/Navigation";
 import Breadcrumb from "./ui/Breadcrumb";
 
@@ -16,7 +17,9 @@ const Main = () => {
   return (
     <StyledMain>
       <Navigation />
-      <Breadcrumb />
+      <Container margin="1rem">
+        <Breadcrumb />
+      </Container>
     </StyledMain>
   );
 };

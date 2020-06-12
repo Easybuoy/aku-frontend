@@ -5,13 +5,13 @@ const StyledContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0.1rem;
+  margin: ${(props) => (props.margin ? props.margin : "0.1rem")};
   /* min-height: 100vh; */
   font-family: "Roboto", sans-serif;
 `;
 
 const Container = (props) => {
-  return <StyledContainer>{props.children}</StyledContainer>;
+  return <StyledContainer {...props}>{props.children}</StyledContainer>;
 };
 
 export default Container;
