@@ -2,15 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 import UKLogo from "../../../assets/uk.png";
+import Profile from "../../../assets/profile.jpg";
+
 const StyledNavigation = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* margin-top: 1rem; */
-  padding: 1rem 0;
+  padding: 1rem 0 0.5rem 0;
   align-items: center;
-  border-bottom: 1px solid #e2e8ee;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
 
   .nav__left {
     display: flex;
@@ -54,12 +55,12 @@ const StyledNavigation = styled.div`
       width: 60%;
       border: 1px solid #dde4eb;
       padding: 0.5rem;
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
 
     i {
       font-size: 1.5rem;
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
 
     .profile-container {
@@ -71,6 +72,7 @@ const StyledNavigation = styled.div`
         width: 30px;
         height: 30px;
         margin-right: 0.5rem;
+        border-radius: 50%;
       }
 
       i {
@@ -105,7 +107,7 @@ const Navigation = () => {
         <i class="far fa-envelope"></i>
 
         <div className="profile-container">
-          <img src={UKLogo} alt="profile" />
+          <img src={Profile} alt="profile" />
           <i class="fas fa-chevron-down"></i>
         </div>
       </div>
