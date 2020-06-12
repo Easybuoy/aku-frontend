@@ -8,6 +8,7 @@ import Radar from "./charts/Radar";
 import Card from "../common/Card";
 import LineGraph from "./charts/LineGraph";
 import AudienceMetric from "./charts/AudienceMetric";
+import World from "./charts/World";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -58,6 +59,7 @@ const Main = () => {
           <div className="right">
             <Radar />
             <AudienceMetric />
+            <World />
 
             {/* <Card>
               <Radar />

@@ -1,5 +1,4 @@
 import React from "react";
-// import Graph1 from "../../../assets/1.png";
 import styled from "styled-components";
 import { ResponsiveLine } from "@nivo/line";
 

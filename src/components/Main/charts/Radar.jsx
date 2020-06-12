@@ -97,12 +97,12 @@ const Radar = () => {
           <p>Started collecting data from Febuary 2019</p>
 
           <span>
-            <i class="fas fa-circle"></i>
+            <i className="fas fa-circle"></i>
             Sales
           </span>
 
           <span>
-            <i style={{ color: "#954efe" }} class="fas fa-circle"></i>
+            <i style={{ color: "#954efe" }} className="fas fa-circle"></i>
             Orders
           </span>
           <RadarChart captions={captions} data={data} size={450} />
