@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+import Navigation from "./ui/Navigation";
 const StyledMain = styled.div`
-  background-color: green;
+  background-color: white;
   width: 79%;
   height: 100vh;
   flex-direction: column;
@@ -10,7 +11,11 @@ const StyledMain = styled.div`
 `;
 
 const Main = () => {
-  return <StyledMain></StyledMain>;
+  return (
+    <StyledMain>
+      <Navigation />
+    </StyledMain>
+  );
 };
 
 export default Main;

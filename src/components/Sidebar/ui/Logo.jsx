@@ -5,7 +5,7 @@ const StyledLogo = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 1rem;
   width: 100%;
 
@@ -19,8 +19,8 @@ const StyledLogo = styled.div`
     padding: 0;
     margin: 0;
     font-weight: bolder;
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
     margin-right: 1rem;
     p {
       margin: 0;
