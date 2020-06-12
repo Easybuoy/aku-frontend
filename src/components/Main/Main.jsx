@@ -6,8 +6,8 @@ import Navigation from "./ui/Navigation";
 import Breadcrumb from "./ui/Breadcrumb";
 import Radar from "./charts/Radar";
 import Card from "../common/Card";
-
-import Graph1 from "../../assets/1.png";
+import LineGraph from "./charts/LineGraph";
+import AudienceMetric from "./charts/AudienceMetric";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -31,22 +31,6 @@ const StyledMain = styled.div`
         width: 100%;
       }
 
-      .line-graph {
-        padding: 1rem;
-        h3 {
-          margin: 1rem 0;
-          font-size: 1.2rem;
-        }
-
-        p {
-          color: #939597;
-          margin: 0.5rem 0;
-        }
-        img {
-          width: 100%;
-          object-fit: cover;
-        }
-      }
     }
 
     .right {
@@ -67,19 +51,13 @@ const Main = () => {
           <div className="left">
             <div className="full-width">
               <Card>
-                <div className="line-graph">
-                  <h3>Sales Statistical Overview</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Asperiores molestiae corporis similique omnis? Quam maxime,
-                  </p>
-                  <img src={Graph1} alt="graph" />
-                </div>
+                <LineGraph />
               </Card>
             </div>
           </div>
           <div className="right">
             <Radar />
+            <AudienceMetric />
 
             {/* <Card>
               <Radar />
