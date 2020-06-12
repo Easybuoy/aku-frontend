@@ -59,7 +59,7 @@ const StyledNavigation = styled.div`
     }
 
     i {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       margin-right: 1.5rem;
     }
 
@@ -77,7 +77,7 @@ const StyledNavigation = styled.div`
 
       i {
         color: #bbbbbc;
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     }
   }
