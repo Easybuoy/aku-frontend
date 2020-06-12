@@ -24,9 +24,7 @@ const StyledSideNav = styled.div`
       flex-wrap: wrap;
       align-items: center;
       justify-content: flex-start;
-
       padding: 1rem;
-      width: 100%;
       .fa-arrow-right {
         color: #2469f4;
         font-size: 0.9rem;

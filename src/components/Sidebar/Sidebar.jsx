@@ -5,7 +5,7 @@ import Profile from "./ui/Profile";
 import SideNav from "./ui/SideNav";
 
 const StyledSidebar = styled.div`
-  width: 20%;
+  width: 15%;
   height: 100vh;
   background-color: blue;
   display: flex;
