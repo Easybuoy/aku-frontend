@@ -7,7 +7,7 @@ const StyledCard = styled.div`
 `;
 
 const Card = (props) => {
-  return <StyledCard>{props.children}</StyledCard>;
+  return <StyledCard {...props}>{props.children}</StyledCard>;
 };
 
 export default Card;

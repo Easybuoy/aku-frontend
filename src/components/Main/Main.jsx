@@ -11,6 +11,9 @@ import LineGraph from "./charts/LineGraph";
 import AudienceMetric from "./charts/AudienceMetric";
 import World from "./charts/World";
 import TotalTransactions from "./charts/TotalTransactions";
+import MarketOverview from "./charts/MarketOverview";
+import Invoices from "./charts/Invoices";
+import RecentEvents from "./charts/RecentEvents";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -71,10 +74,41 @@ const Main = () => {
                 <TotalTransactions />
               </div>
             </div>
+
+            <div className="full-width">
+              <MarketOverview />
+            </div>
+
+            <div className="full-width">
+              <Invoices />
+            </div>
+
+            <div className="full-width">
+              <div className="divided-width">
+                <TotalRevenue />
+              </div>
+
+              <div className="divided-width">
+                <TotalTransactions />
+              </div>
+            </div>
+
+            <div className="full-width">
+              <div className="divided-width">
+                <RecentEvents />
+              </div>
+
+              <div className="divided-width">
+                <RecentEvents />
+              </div>
+            </div>
           </div>
           <div className="right">
             <Radar />
             <AudienceMetric />
+            <World />
+            <World />
+            <World />
             <World />
 
             {/* <Card>
