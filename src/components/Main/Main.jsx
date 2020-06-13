@@ -14,6 +14,7 @@ import TotalTransactions from "./charts/TotalTransactions";
 import MarketOverview from "./charts/MarketOverview";
 import Invoices from "./charts/Invoices";
 import RecentEvents from "./charts/RecentEvents";
+import Footer from "../common/Footer";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -55,69 +56,68 @@ const StyledMain = styled.div`
 
 const Main = () => {
   return (
-    <StyledMain>
-      <Navigation />
-      <Container margin="1rem">
-        <Breadcrumb />
-        <section>
-          <div className="left">
-            <div className="full-width">
-              <LineGraph />
-            </div>
-
-            <div className="full-width">
-              <div className="divided-width">
-                <TotalRevenue />
+    <>
+      <StyledMain>
+        <Navigation />
+        <Container margin="1rem">
+          <Breadcrumb />
+          <section>
+            <div className="left">
+              <div className="full-width">
+                <LineGraph />
               </div>
 
-              <div className="divided-width">
-                <TotalTransactions />
-              </div>
-            </div>
+              <div className="full-width">
+                <div className="divided-width">
+                  <TotalRevenue />
+                </div>
 
-            <div className="full-width">
-              <MarketOverview />
-            </div>
-
-            <div className="full-width">
-              <Invoices />
-            </div>
-
-            <div className="full-width">
-              <div className="divided-width">
-                <TotalRevenue />
+                <div className="divided-width">
+                  <TotalTransactions />
+                </div>
               </div>
 
-              <div className="divided-width">
-                <TotalTransactions />
+              <div className="full-width">
+                <MarketOverview />
+              </div>
+
+              <div className="full-width">
+                <Invoices />
+              </div>
+
+              <div className="full-width">
+                <div className="divided-width">
+                  <TotalRevenue />
+                </div>
+
+                <div className="divided-width">
+                  <TotalTransactions />
+                </div>
+              </div>
+
+              <div className="full-width">
+                <div className="divided-width">
+                  <RecentEvents />
+                </div>
+
+                <div className="divided-width">
+                  <RecentEvents />
+                </div>
               </div>
             </div>
-
-            <div className="full-width">
-              <div className="divided-width">
-                <RecentEvents />
-              </div>
-
-              <div className="divided-width">
-                <RecentEvents />
-              </div>
-            </div>
-          </div>
-          <div className="right">
-            <Radar />
-            <AudienceMetric />
-            <World />
-            <World />
-            <World />
-            <World />
-
-            {/* <Card>
+            <div className="right">
               <Radar />
-            </Card> */}
-          </div>
-        </section>
-      </Container>
-    </StyledMain>
+              <AudienceMetric />
+              <World />
+              <World />
+              <World />
+              <World />
+            </div>
+          </section>
+        </Container>
+        <Footer />
+      </StyledMain>
+    </>
   );
 };
 
