@@ -5,10 +5,12 @@ import Container from "../Container";
 import Navigation from "./ui/Navigation";
 import Breadcrumb from "./ui/Breadcrumb";
 import Radar from "./charts/Radar";
-import Card from "../common/Card";
+
+import TotalRevenue from "./charts/TotalRevenue";
 import LineGraph from "./charts/LineGraph";
 import AudienceMetric from "./charts/AudienceMetric";
 import World from "./charts/World";
+import TotalTransactions from "./charts/TotalTransactions";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -29,9 +31,15 @@ const StyledMain = styled.div`
       flex-wrap: wrap;
 
       .full-width {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         width: 100%;
       }
 
+      .divided-width {
+        width: 45%;
+      }
     }
 
     .right {
@@ -51,9 +59,17 @@ const Main = () => {
         <section>
           <div className="left">
             <div className="full-width">
-              <Card>
-                <LineGraph />
-              </Card>
+              <LineGraph />
+            </div>
+
+            <div className="full-width">
+              <div className="divided-width">
+                <TotalRevenue />
+              </div>
+
+              <div className="divided-width">
+                <TotalTransactions />
+              </div>
             </div>
           </div>
           <div className="right">
