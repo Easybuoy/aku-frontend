@@ -4,6 +4,7 @@ import styled from "styled-components";
 const StyledCard = styled.div`
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
   margin-bottom: 1rem;
+  width: 100%;
 `;
 
 const Card = (props) => {

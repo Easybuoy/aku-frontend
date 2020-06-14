@@ -40,6 +40,10 @@ const StyledAveragePrice = styled.div`
       margin-bottom: 1rem;
       border: 1px solid #686d85;
     }
+
+    p {
+      font-size: 0.8rem;
+    }
   }
 `;
 

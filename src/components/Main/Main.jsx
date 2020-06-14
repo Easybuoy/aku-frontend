@@ -17,6 +17,7 @@ import RecentEvents from "./charts/RecentEvents";
 import PeopleAlsoWatch from "./charts/PeopleAlsoWatch";
 import Footer from "../common/Footer";
 import AveragePrice from "./charts/AveragePrice";
+import TopPerformers from "./charts/TopPerformers";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -112,7 +113,7 @@ const Main = () => {
               <AudienceMetric />
               <World />
               <World />
-              <World />
+              <TopPerformers />
               <PeopleAlsoWatch />
             </div>
           </section>
