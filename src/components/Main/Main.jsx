@@ -14,6 +14,7 @@ import TotalTransactions from "./charts/TotalTransactions";
 import MarketOverview from "./charts/MarketOverview";
 import Invoices from "./charts/Invoices";
 import RecentEvents from "./charts/RecentEvents";
+import PeopleAlsoWatch from "./charts/PeopleAlsoWatch";
 import Footer from "../common/Footer";
 
 const StyledMain = styled.div`
@@ -111,7 +112,7 @@ const Main = () => {
               <World />
               <World />
               <World />
-              <World />
+              <PeopleAlsoWatch />
             </div>
           </section>
         </Container>
