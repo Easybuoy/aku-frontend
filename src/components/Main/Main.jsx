@@ -18,6 +18,7 @@ import PeopleAlsoWatch from "./charts/PeopleAlsoWatch";
 import Footer from "../common/Footer";
 import AveragePrice from "./charts/AveragePrice";
 import TopPerformers from "./charts/TopPerformers";
+import TotalUserSales from "./charts/TotalUserSales";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -90,7 +91,7 @@ const Main = () => {
 
               <div className="full-width">
                 <div className="divided-width">
-                  <TotalRevenue />
+                  <TotalUserSales />
                 </div>
 
                 <div className="divided-width">
