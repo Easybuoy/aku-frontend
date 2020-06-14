@@ -16,6 +16,7 @@ import Invoices from "./charts/Invoices";
 import RecentEvents from "./charts/RecentEvents";
 import PeopleAlsoWatch from "./charts/PeopleAlsoWatch";
 import Footer from "../common/Footer";
+import AveragePrice from "./charts/AveragePrice";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -92,7 +93,7 @@ const Main = () => {
                 </div>
 
                 <div className="divided-width">
-                  <TotalTransactions />
+                  <AveragePrice />
                 </div>
               </div>
 
