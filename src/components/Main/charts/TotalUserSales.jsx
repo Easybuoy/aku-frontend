@@ -87,8 +87,8 @@ const TotalUserSales = () => {
           </div>
           <h4> $7,590</h4>
 
-          <div class="progress">
-            <div class="progress-bar-red"></div>
+          <div className="progress">
+            <div className="progress-bar-red"></div>
           </div>
         </div>
 
@@ -99,8 +99,8 @@ const TotalUserSales = () => {
           </div>
 
           <h4>$5,460</h4>
-          <div class="progress">
-            <div class="progress-bar-green"></div>
+          <div className="progress">
+            <div className="progress-bar-green"></div>
           </div>
         </div>
       </StyledTotalUserSales>

@@ -19,6 +19,7 @@ import Footer from "../common/Footer";
 import AveragePrice from "./charts/AveragePrice";
 import TopPerformers from "./charts/TopPerformers";
 import TotalUserSales from "./charts/TotalUserSales";
+import WebsiteMetric from "./charts/WebsiteMetric";
 
 const StyledMain = styled.div`
   width: 84.5%;
@@ -112,7 +113,7 @@ const Main = () => {
             <div className="right">
               <Radar />
               <AudienceMetric />
-              <World />
+              <WebsiteMetric />
               <World />
               <TopPerformers />
               <PeopleAlsoWatch />
